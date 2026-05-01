@@ -49,3 +49,22 @@ const TIMELINE = [
   { year: "2022 — 2023", role: "IoT / Backend Builder", org: "Aquaponics R&D", desc: "Designed the data pipeline from ESP32 sensors → MQTT → NestJS → PostgreSQL, with a Next.js dashboard for live monitoring & control." },
   { year: "2021 — 2022", role: "Software Developer", org: "Independent / Freelance", desc: "Web platforms, internal tools and integrations for SMB clients. Foundations in TypeScript, relational data and Linux deployments." },
 ];
+
+/* ---------- Animated Terminal ---------- */
+const TERMINAL_LINES = [
+  { type: "cmd", text: "efrain@portfolio:~$ whoami" },
+  { type: "out", text: "Full-Stack Developer · Builder of systems" },
+  { type: "cmd", text: "efrain@portfolio:~$ cat stack.json" },
+  { type: "code", lines: [
+    "{",
+    "  \"frontend\": [\"Angular\", \"Next.js\", \"React\", \"Tailwind\"],",
+    "  \"backend\":  [\"NestJS\", \"Node.js\", \"Prisma\"],",
+    "  \"data\":     [\"PostgreSQL\", \"SQL Server\"],",
+    "  \"devops\":   [\"Docker\", \"Linux\"],",
+    "  \"erp\":      [\"SAP B1 Service Layer\"]",
+    "}"
+  ]},
+  { type: "cmd", text: "efrain@portfolio:~$ ./run --hire" },
+  { type: "out", text: "✓ Available for new opportunities" },
+  { type: "cursor" }
+];
