@@ -2,6 +2,7 @@ import { Inter } from "next/font/google"
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/layout/footer";
+import { Navbar } from "@/components/layout/navbar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,7 +31,8 @@ export default function RootLayout({
       <body>
         <div className="bg-atmosphere" aria-hidden />
         <div className="bg-grid" />
-        <div className="bg-grain"/>
+        <div className="bg-grain" />
+        <Navbar/>
         {children}
         <Footer/>
       </body>
