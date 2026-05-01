@@ -3,6 +3,8 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
+import { SocialSidebar } from "@/components/layout/social-sidebar";
+import { LINKS } from "@/lib/constants";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -12,7 +14,7 @@ const inter = Inter({
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  variable: "--fonts-sants",
+  variable: "--font-mono",
   display: "swap",
 })
 
@@ -32,9 +34,10 @@ export default function RootLayout({
         <div className="bg-atmosphere" aria-hidden />
         <div className="bg-grid" />
         <div className="bg-grain" />
-        <Navbar/>
+        <Navbar />
+        <SocialSidebar links={LINKS} />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
