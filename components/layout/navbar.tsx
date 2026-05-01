@@ -1,14 +1,6 @@
 'use client'
 import { useState, useEffect } from "react"
-
-const NAV_LINKS = [
-  { href: '#home',       label: 'Home' },
-  { href: '#about',      label: 'About' },
-  { href: '#skills',     label: 'Skills' },
-  { href: '#work',       label: 'Portfolio' },
-  { href: '#experience', label: 'Experience' },
-  { href: '#contact',    label: 'Contact' },
-]
+import { NAV_LINKS } from "@/lib/constants";
 
 export const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);

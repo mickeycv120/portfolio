@@ -74,3 +74,12 @@ export const LINKS = {
   linkedin: "https://www.linkedin.com/in/efraincouti%C3%B1o/?locale=en",
   email:    "efrain.coutino.dev@gmail.com",
 };
+
+export const NAV_LINKS = [
+  { href: '#home',       label: 'Home' },
+  { href: '#about',      label: 'About' },
+  { href: '#skills',     label: 'Skills' },
+  { href: '#work',       label: 'Portfolio' },
+  { href: '#experience', label: 'Experience' },
+  { href: '#contact',    label: 'Contact' },
+]
