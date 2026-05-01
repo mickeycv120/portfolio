@@ -68,3 +68,9 @@ const TERMINAL_LINES = [
   { type: "out", text: "✓ Available for new opportunities" },
   { type: "cursor" }
 ];
+
+export const LINKS = {
+  github:   "https://github.com/mickeycv120",
+  linkedin: "https://www.linkedin.com/in/efraincouti%C3%B1o/?locale=en",
+  email:    "efrain.coutino.dev@gmail.com",
+};
