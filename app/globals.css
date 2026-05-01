@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@import "../styles/legacy.css";
 /* ---------- Tokens (driven by tweaks) ---------- */
 :root {
   --bg-0: #07060d;
